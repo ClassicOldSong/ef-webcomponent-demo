@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>ef WebComponent Test</title>
+		<link rel="stylesheet" href="/main.css" />
+	</head>
+	<body>
+		<ef-app>
+			<ef-hello slot="hello" class="hello"></ef-hello>
+			<span slot="links">
+				<ef-link text="Documents" href="https://ef.js.org/#!guides/quick-start"></ef-link>
+				<ef-link text="Commuinty Chat" href="https://t.me/ef_js"></ef-link>
+				<ef-link text="Twitter" href="https://twitter.com/classicoldsong"></ef-link>
+				<ef-link text="GitHub" href="https://github.com/TheNeuronProject/ef.js"></ef-link>
+			</span>
+			<ef-copyright slot="copyright" class="copyright" author="Yukino Song" year="2020"></ef-copyright>
+		</ef-app>
+		<script src="/main.js"></script>
+	</body>
+</html>

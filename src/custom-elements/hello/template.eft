@@ -1,0 +1,23 @@
+>style
+	|.title {
+	|	text-shadow: 0px 2px 3px #BBB;
+	|	position: relative;
+	|}
+	|
+	|.version {
+	|	font-size: 30%;
+	|	padding: 0px 5px;
+	|	position: absolute;
+	|	bottom: 0px;
+	|	opacity: 0.8;
+	|}
+	|
+	|.desc {
+	|	color: #333;
+	|}
+>h1.title
+	.ef.js
+	>span.version
+		.v{{version}}
+>p.desc
+	.Welcome to the wonderland of ef.js WebComponents!

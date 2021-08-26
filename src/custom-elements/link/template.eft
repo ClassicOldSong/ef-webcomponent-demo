@@ -1,0 +1,11 @@
+>style
+	|a {
+	|	color: #ffb200;
+	|}
+. [ &
+>a
+	#href = {{href}}
+	#target = _blank
+	#rel = noopener noreferrer
+	.{{text}}
+. ]
